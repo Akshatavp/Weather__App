@@ -27,13 +27,13 @@ async function checkWeather(city) {
             cardbg.src = "imgs/sun.png";
 
         }
-        else if (data.weather[1].main == "Rain") {
+        else if (data.weather[0].main == "Rain") {
             cardbg.src = "imgs/rainy.png";
         }
-        else if (data.weather[1].main == "Drizzle") {
+        else if (data.weather[0].main == "Drizzle") {
             cardbg.src = "imgs/rainy.png";
         }
-        else if (data.weather[1].main == "Mist") {
+        else if (data.weather[0].main == "Mist") {
             cardbg.src = "imgs/misty.png";
         }
         document.querySelector(".weather").style.display = "block";
