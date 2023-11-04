@@ -6,11 +6,16 @@
 
 }
 
+html {
+    height: -webkit-fill-available;
+}
+
 body {
+    height: -webkit-fill-available;
+
     background: rgb(88, 131, 145);
 
     width: 100%;
-    height: auto;
 
     background-size: cover;
 
@@ -149,7 +154,7 @@ body {
     font-size: 28px;
     margin-top: -2px;
     align-items: center;
-    margin-right: 45px;
+    margin-right: 40px;
     margin-left: -85px;
     text-align: center;
 }
