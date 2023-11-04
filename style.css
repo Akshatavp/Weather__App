@@ -20,8 +20,9 @@ body {
 
 
 .card {
+
     width: 90%;
-    max-width: 470px;
+    max-width: 523px;
 
     margin: 100px auto 0;
     border-radius: 20px;
@@ -30,7 +31,7 @@ body {
     color: #fff;
     background: linear-gradient(150deg, #00feba, #5b548a);
 
-    background-image: url(imgs/clouds.jpeg);
+    background-image: url(imgs/images\ \(1\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: fit-content;
@@ -85,6 +86,12 @@ body {
     width: 110%;
 }
 
+.loader {
+    margin-left: -10%;
+    display: none;
+    width: 10px;
+}
+
 .weather-icon {
     width: 150px;
     margin-top: 40px;
@@ -94,15 +101,14 @@ body {
     font-size: 80px;
     font-weight: 800;
     margin-top: 10px;
-    color: rgb(80, 131, 4);
+    color: white;
 }
 
 .weather h2 {
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
-    color: rgb(80, 131, 4);
-
+    color: #ffc106
 }
 
 .details {
@@ -113,34 +119,39 @@ body {
     margin-top: 50px;
 }
 
-.col {
+.col1,
+.col2 {
 
     display: flex;
     align-items: center;
     text-align: left;
-
+    font-size: x-large;
+    margin: -1%;
 
 }
 
-
-
-.col img {
+.col1 img {
     width: 69px;
     margin-right: 90px;
     margin-top: 10px;
 
 }
 
+.col2 img {
+    width: 136px;
+    margin-right: 90px;
+    margin-top: 10px;
+}
+
 .humidity,
 .wind {
+    display: flex;
     font-size: 28px;
-    margin-top: -5px;
+    margin-top: -2px;
     align-items: center;
-    margin-right: 5px;
+    margin-right: 45px;
     margin-left: -85px;
-
-
-
+    text-align: center;
 }
 
 p {
