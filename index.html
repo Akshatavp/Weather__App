@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
     <title>Weather App</title>
@@ -13,43 +13,49 @@
 <body>
     <div class="card">
 
-
-        <div class="search">
-
-            <input name="search" placeholder="enter city name" spellcheck="false">
-
-            <button><img src="imgs/search.png" alt=""></button>
-        </div>
-        <div class="loader"><img src="imgs/loading.gif" alt=""></div>
-        <div class="error">
-
-            <h3>Invalid city name</h3>
-        </div>
-
-        <div class="weather">
-            <img src="imgs/weather-icon.png" class="weather-icon">
-            <h1 class="temp">22°C</h1>
-            <h2 class="city">New York</h2>
-            <div class="details">
-                <div class="col1">
-                    <img src="imgs/humidity.png">
-                    <div>
-                        <p class="humidity">50%</p>
-                        <p>Humidity</p>
-                    </div>
-
-                </div>
-                <div class="col2">
-                    <img src="imgs/speed.png">
-                    <div>
-                        <p class="wind">15 km/h</p>
-                        <p>Wind Speed</p>
-                    </div>
-                </div>
+        <span class="input-group-btn">
 
 
+
+            <div class="search">
+
+                <input name="search" placeholder="enter city name" spellcheck="false">
+
+                <button><img src="imgs/search.png" alt=""></button>
             </div>
-        </div>
+            <div class="loader"><img src="imgs/loading.gif" alt=""></div>
+            <div class="error">
+                <span class='glyphicon glyphicon-search'></span>
+                <h3>Invalid city name</h3>
+            </div>
+
+            <div class="weather">
+                <img src="imgs/weather-icon.png" class="weather-icon">
+                <h1 class="temp" text-wrap>22°C</h1>
+                <h2 class="city" text-wrap>New York</h2>
+                <div class="details">
+                    <div class="col1">
+                        <img src="imgs/humidity.png">
+                        <div>
+                            <p class="humidity" text-wrap>50%
+                            </p>
+                            <p>Humidity</p>
+
+                        </div>
+
+                    </div>
+                    <div class="col2">
+                        <img src="imgs/speed.png">
+                        <div>
+                            <p class="wind" text-wrap>15 km/h </p>
+                            <p>Wind Speed</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
 
     </div>
 
